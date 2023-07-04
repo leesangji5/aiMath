@@ -30,7 +30,6 @@ for i in range(ep):
         
         # backpropagation
 
-        # 계산 편리
         alpha_2 = E[j] * Hb * (1-Hb)
         alpha_1 = [alpha_2 * Ha[0] * (1-Ha[0]) * w2[0],alpha_2 * Ha[1] * (1-Ha[1]) * w2[1]]
         
